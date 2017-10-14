@@ -1,3 +1,35 @@
+
+/* 
+Tugas Week 2 kali ini, saya membuat sebuah aplikasi quiz yang bertujuan 
+untuk mengukur wawasan kita dengan menjawab jawaban dari pertanyaan yang di ajukan.
+*/
+
+/* 
+										PSEUDOCODE =
+			BACA "pertanyaan"
+			BACA dan SIMPAN "jawaban"
+			IF "jawaban" benar, nilai tambah 10, THEN
+				IF "jawaban" salah, nilai tidak bertambah, THEN
+					IF "jawaban" belum di pilih, ALERT "anda belum memilih jawaban"
+					ENDIF
+				ENDIF
+			IF "jawaban" benar semua, nilai 50, THEN
+				IF "jawaban" salah 1, nilai 40, THEN
+					IF "jawaban" salah 2, nilai 30, THEN
+						IF "jawaban" salah 3, nilai 20, THEN
+							IF "jawaban" salah 4, nilai 10, THEN
+								IF "jawaban" salah semua, nilai 0
+			ELSE :
+				"jawaban" salah semua, nilai 0
+								ENDIF
+							ENDIF
+						ENDIF
+					ENDIF
+				ENDIF
+			ENDIF
+*/
+
+
 var currentQuestion = 0;
 var score = 0;
 var totQuestions = questions.length;
