@@ -14,7 +14,7 @@ html, body {
 }
 
 .header {
-    background: url(assets/gambar3.jpg) no-repeat center center;
+    background: url(assets/gambar3.jpg);
     background-size: cover;
     height: 800px;
     text-align: center;
